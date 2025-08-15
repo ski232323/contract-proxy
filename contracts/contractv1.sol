@@ -22,7 +22,7 @@ contract Testv1 is Initializable, ERC20Upgradeable, ERC20BurnableUpgradeable, ER
         virtual
         initializer
     {
-        __ERC20_init("Testv1", "TST");
+        __ERC20_init("Mcoin", "MCN");
         __ERC20Burnable_init();
         __ERC20Pausable_init();
         __Ownable_init(initialOwner);
